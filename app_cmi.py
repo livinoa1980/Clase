@@ -23,10 +23,10 @@ st.set_page_config(page_title="Cuadro de Mando", layout="wide")
 # =============================
 # Parámetros (puedes editar)
 # =============================
-RUTA_EXCEL_DEF = r"C:\Users\Lenovo\OneDrive\Escritorio\base_clase3.xlsx"
+RUTA_EXCEL_DEF = r"base_clase3.xlsx"
 HOJA = "base"
-LOGO_IZQ = r"C:\Users\Lenovo\OneDrive\Escritorio\image1.jpg"
-LOGO_DER = r"C:\Users\Lenovo\OneDrive\Escritorio\image2.jpg"
+LOGO_IZQ = r"image1.jpg"
+LOGO_DER = r".jpg"
 
 CATEG_LABELS = ["Deficiente", "Aceptable", "Excelente"]
 CATEG_BINS = [-np.inf, 0.33, 0.66, np.inf]
@@ -243,3 +243,4 @@ st.download_button(
 )
 
 st.caption("Tip: si los resultados originales están en 0–100, el tablero los normaliza a 0–1 automáticamente.")
+
